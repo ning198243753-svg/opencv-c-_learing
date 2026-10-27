@@ -1,0 +1,17 @@
+build/
+*.dir/
+*.vcxproj*
+*.sln
+cmake_install.cmake
+CMakeCache.txt
+CMakeFiles/
+
+# 忽略二进制、库与调试文件
+*.exe
+*.dll
+*.obj
+*.pdb
+*.ilk
+
+# 忽略 VS Code 个人配置（可选）
+.vscode/
