@@ -6,7 +6,7 @@ set(OpenCV_DIR D:/opencv/opencv/build/x64/vc16/lib)
 find_package(OpenCV REQUIRED)
 
 include_directories(${OpenCV_INCLUDE_DIRS})
-add_executable(demo src/project1.cpp)
+add_executable(demo src/project2.cpp)
 target_link_libraries(demo ${OpenCV_LIBS})
 
 # 自动把依赖的 OpenCV dll 拷贝到可执行文件所在目录
